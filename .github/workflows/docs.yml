@@ -85,12 +85,9 @@ jobs:
 
       # Step 10: Commit and push changes
       - name: Commit and push changes
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://${GH_TOKEN}@github.com/giovannivolpe/TRIAL.git
           git add docs/latest docs/$VERSION _static/switcher.json
-          git commit -m "Update docs for release $VERSION" || echo "No changes to commit"
+          git commit -m "Update docs for release $VERSION"
           git push
