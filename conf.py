@@ -25,9 +25,15 @@ release = version
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx_automodapi.automodapi", "sphinx.ext.githubpages"]
+extensions = ["sphinx_automodapi.automodapi", "sphinx.ext.githubpages",
+    'sphinx.ext.autodoc',       # Generates documentation from docstrings
+    'sphinx.ext.autosummary',   # Generates summary tables and links automatically
+    'sphinx.ext.napoleon',      # For NumPy/Google style docstrings
+    ]
 numpydoc_show_class_members = False
 automodapi_inheritance_diagram = False
+
+autosummary_generate = True  # Automatically generate summary `.rst` files
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
