@@ -1,7 +1,7 @@
 import sys
 import os
 
-sys.path.insert(0, "release-code")
+sys.path.insert(0, "")
 
 # get release from environment variable
 version = os.environ.get("VERSION", "")

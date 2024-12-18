@@ -66,7 +66,7 @@ def parse_args(args):
 def main():
     library_name, force, exclude_list, output_dir = parse_args(sys.argv[1:])
 
-    base_dir = os.path.join("release-code", library_name)
+    base_dir = os.path.join(library_name)
 
     if not os.path.isdir(base_dir):
         print(f"Directory {base_dir} does not exist.")
