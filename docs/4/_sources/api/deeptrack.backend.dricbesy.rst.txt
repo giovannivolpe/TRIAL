@@ -1,0 +1,6 @@
+dricbesy
+========
+
+.. currentmodule:: deeptrack.backend
+
+.. autofunction:: dricbesy
