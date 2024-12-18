@@ -133,9 +133,9 @@ def main():
             with open(rst_filename, "w", encoding="utf-8") as rst_file:
                 rst_file.write(f".. automodule:: {library_name}.{mod}\n"
                                "  :members:\n"
-                               "  ":undoc-members:\n"
+                               "  :undoc-members:\n"
                                "  :show-inheritance:\n"
-                               "  ":recursive:\n")
+                               "  :recursive:\n")
             if force and os.path.exists(rst_filename):
                 print(f"Overwritten {rst_filename}")
             else:
