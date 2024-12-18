@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+scikit-image
+more_itertools
+pint
+pandas
+tqdm
+lazy_import
+rich
+gdown
