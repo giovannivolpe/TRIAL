@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.sources
+.. automodule:: deeptrack.sources
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:

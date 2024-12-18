@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.sequences
+.. automodule:: deeptrack.sequences
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:

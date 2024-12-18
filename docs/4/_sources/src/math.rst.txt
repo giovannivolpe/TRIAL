@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.math
+.. automodule:: deeptrack.math
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:

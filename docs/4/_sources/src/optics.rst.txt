@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.optics
+.. automodule:: deeptrack.optics
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:
