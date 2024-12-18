@@ -1,0 +1,7 @@
+Sources
+=======
+
+.. currentmodule:: deeptrack.sources
+
+.. autoclass:: Sources
+   :show-inheritance:

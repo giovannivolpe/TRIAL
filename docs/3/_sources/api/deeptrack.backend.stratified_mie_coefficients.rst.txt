@@ -1,0 +1,6 @@
+stratified_mie_coefficients
+===========================
+
+.. currentmodule:: deeptrack.backend
+
+.. autofunction:: stratified_mie_coefficients

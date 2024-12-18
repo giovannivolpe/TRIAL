@@ -1,0 +1,29 @@
+Documentation
+=============
+
+Here, you will find the documentation for deeptrack.
+The documentation is organized into the following sections:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   scatterers
+   holography
+   aberrations
+   types
+   augmentations
+   math
+   backend
+   noises
+   properties
+   optics
+   sources
+   image
+   elementwise
+   utils
+   statistics
+   features
+   sequences
+   extras
+
