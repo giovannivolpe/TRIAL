@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.holography
+.. automodule:: deeptrack.holography
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:

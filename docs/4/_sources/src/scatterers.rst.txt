@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.scatterers
+.. automodule:: deeptrack.scatterers
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:

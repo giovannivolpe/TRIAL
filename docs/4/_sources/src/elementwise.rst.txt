@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.elementwise
+.. automodule:: deeptrack.elementwise
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:

@@ -1,1 +1,5 @@
-.. automodapi:: deeptrack.aberrations
+.. automodule:: deeptrack.aberrations
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :recursive:
